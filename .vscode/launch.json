@@ -1,0 +1,188 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Binary",
+            "request": "launch",
+            "mainClass": "src.recursion.Binary",
+            "projectName": "Coding_f5ab64b2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Factorial",
+            "request": "launch",
+            "mainClass": "src.recursion.Factorial",
+            "projectName": "Coding_f5ab64b2"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindMinMax",
+            "request": "launch",
+            "mainClass": "src.FindMinMax",
+            "projectName": "Coding_f5ab64b2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Java Program",
+            "request": "launch",
+            "mainClass": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Binary",
+            "request": "launch",
+            "mainClass": "src.Binary",
+            "projectName": "Coding_f5ab64b2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Cards",
+            "request": "launch",
+            "mainClass": "src.Cards",
+            "projectName": "Coding_f5ab64b2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Countdown",
+            "request": "launch",
+            "mainClass": "src.Countdown",
+            "projectName": "Coding_f5ab64b2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Factorial",
+            "request": "launch",
+            "mainClass": "src.Factorial",
+            "projectName": "Coding_f5ab64b2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fibonacci",
+            "request": "launch",
+            "mainClass": "src.Fibonacci",
+            "projectName": "Coding_f5ab64b2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Insert",
+            "request": "launch",
+            "mainClass": "src.Insert",
+            "projectName": "Coding_f5ab64b2"
+        },
+        {
+            "type": "java",
+            "name": "Launch InsertionPosition",
+            "request": "launch",
+            "mainClass": "src.InsertionPosition",
+            "projectName": "Coding_f5ab64b2"
+        },
+        {
+            "type": "java",
+            "name": "Launch ListDemo",
+            "request": "launch",
+            "mainClass": "src.ListDemo",
+            "projectName": "Coding_f5ab64b2"
+        },
+        {
+            "type": "java",
+            "name": "Launch SimpleSort",
+            "request": "launch",
+            "mainClass": "src.SimpleSort",
+            "projectName": "Coding_f5ab64b2"
+        },
+        {
+            "type": "java",
+            "name": "Launch SortingAlgorithm",
+            "request": "launch",
+            "mainClass": "src.SortingAlgorithm",
+            "projectName": "Coding_f5ab64b2"
+        },
+        {
+            "type": "java",
+            "name": "Launch TopK",
+            "request": "launch",
+            "mainClass": "src.TopK",
+            "projectName": "Coding_f5ab64b2"
+        },
+        {
+            "type": "java",
+            "name": "Launch MainTest",
+            "request": "launch",
+            "mainClass": "src.count_words.MainTest",
+            "projectName": "Coding_f5ab64b2"
+        },
+        {
+            "type": "java",
+            "name": "Launch HeapSort",
+            "request": "launch",
+            "mainClass": "src.heap_sort.HeapSort",
+            "projectName": "Coding_f5ab64b2"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeSort",
+            "request": "launch",
+            "mainClass": "src.merge_sort.MergeSort",
+            "projectName": "Coding_f5ab64b2"
+        },
+        {
+            "type": "java",
+            "name": "Launch UnorderedQueue",
+            "request": "launch",
+            "mainClass": "src.priority_queue.UnorderedQueue",
+            "projectName": "Coding_f5ab64b2"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayListQueue",
+            "request": "launch",
+            "mainClass": "src.queue_arraylist.ArrayListQueue",
+            "projectName": "Coding_f5ab64b2"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinkedListQueue",
+            "request": "launch",
+            "mainClass": "src.queue_linkedlist.LinkedListQueue",
+            "projectName": "Coding_f5ab64b2"
+        },
+        {
+            "type": "java",
+            "name": "Launch QuickSort",
+            "request": "launch",
+            "mainClass": "src.quick_sort.QuickSort",
+            "projectName": "Coding_f5ab64b2"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayStack",
+            "request": "launch",
+            "mainClass": "src.stack_arraylist.ArrayStack",
+            "projectName": "Coding_f5ab64b2"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinkedListStack",
+            "request": "launch",
+            "mainClass": "src.stack_linkedlist.LinkedListStack",
+            "projectName": "Coding_f5ab64b2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Dictionary",
+            "request": "launch",
+            "mainClass": "src.vi_dict.Dictionary",
+            "projectName": "Coding_f5ab64b2"
+        }
+    ]
+}
