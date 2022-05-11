@@ -7,9 +7,6 @@ import java.util.Arrays;
 
 @SuppressWarnings("unchecked")
 public class SimpleBST<Key extends Comparable<Key>> implements SimpleBTreeInterface<Key> {
-
-    private List<Key> list = new ArrayList<Key>();
-
     class Node {
         Key data;
         Node left, right;
@@ -23,23 +20,23 @@ public class SimpleBST<Key extends Comparable<Key>> implements SimpleBTreeInterf
     int n = 0;
 
     @Override
-    public void insert(Key key) {
+    public void insert(Key k) {
         // TODO Auto-generated method stub
         if (root == null) {
-            root = new Node(key);
+            root = new Node(k);
         } else {
             Node p = root;
             while (true) {
-                if (key.compareTo(p.data) > 0) {
+                if (k.compareTo(p.data) >= 0) {
                     if (p.right == null) {
-                        p.right = new Node(key);
+                        p.right = new Node(k);
                         break;
                     } else {
                         p = p.right;
                     }
                 } else {
                     if (p.left == null) {
-                        p.left = new Node(key);
+                        p.left = new Node(k);
                         break;
                     } else {
                         p = p.left;
@@ -57,10 +54,12 @@ public class SimpleBST<Key extends Comparable<Key>> implements SimpleBTreeInterf
         while (p != null) {
             if (p.data.compareTo(k) == 0) {
                 return p.data;
-            } else if (p.data.compareTo(k) < 0) {
-                p = p.right;
             } else {
-                p = p.left;
+                if (k.compareTo(p.data) > 0) {
+                    p = p.right;
+                } else {
+                    p = p.left;
+                }
             }
         }
         return null;
@@ -81,16 +80,16 @@ public class SimpleBST<Key extends Comparable<Key>> implements SimpleBTreeInterf
     @Override
     public Iterator<Key> iterator() {
         // TODO Auto-generated method
-        add(root);
-        Iterator<Key> check = list.iterator();
-        return check;
+        List<Key> check = new ArrayList<Key>();
+        add(root, check);
+        return check.iterator();
     }
 
-    private void add(Node node) {
+    private void add(Node node, List<Key> keys) {
         if (node != null) {
-            add(node.left);
-            list.add(node.data);
-            add(node.right);
+            add(node.left, keys);
+            keys.add(node.data);
+            add(node.right, keys);
         }
     }
 
@@ -167,5 +166,7 @@ public class SimpleBST<Key extends Comparable<Key>> implements SimpleBTreeInterf
         bst.postTraverse();
         System.out.println("In-order tree traversal");
         bst.inTraverse();
+
     }
+
 }
